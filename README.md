@@ -28,19 +28,7 @@ It consists of a **React** frontend (“User Dashboard”) and a **Node.js/Expre
 | **Backend**  | Node.js, Express.js, SQLite3, CORS |
 | **Dev Tools**| Nodemon for hot-reloading during backend development |
 
-## 📂 Project Structure
-user-management-dashboard/
-├── backend/
-│   ├── database.js         # Database connection and setup
-│   ├── server.js           # Main Express server file
-│   └── routes/
-│       └── users.js        # API routes for users
-├── frontend/
-│   └── src/
-│       ├── components/     # Reusable React components
-│       ├── pages/          # Page components (UserList, UserForm, etc.)
-│       └── App.js          # Main component with routing
-└── README.md               # Project documentation
+
 
 User Management Dashboard – A simple web app built with React and Node.js that lets you add, edit, view and delete users
 
