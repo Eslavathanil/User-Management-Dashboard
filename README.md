@@ -1,73 +1,46 @@
-# Welcome to your Lovable project
+# 🧑‍💻 User Management Dashboard – Full-Stack Assignment  
 
-## Project info
+A full-stack web application that demonstrates CRUD (Create, Read, Update, Delete) operations on users.  
+It consists of a **React** frontend (“User Dashboard”) and a **Node.js/Express/SQLite** backend (“User Management REST API”).
 
-**URL**: https://lovable.dev/projects/4790e4b0-3ea4-4bf0-9384-e6142e6c61ed
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- View, search, create, edit, and delete users from a central dashboard.
+- Backend REST API built with Express and SQLite.
+- Frontend built with React + React Router + Axios.
+- Responsive UI using Tailwind CSS.
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4790e4b0-3ea4-4bf0-9384-e6142e6c61ed) and start prompting.
+## 🔗 Live Demo & Screenshot
 
-Changes made via Lovable will be committed automatically to this repo.
+[👉 Live Demo](https://user-managementdashboard.netlify.app/)
 
-**Use your preferred IDE**
+![User Management Dashboard Screenshot](https://res.cloudinary.com/dp8gu4t9m/image/upload/v1757731863/Screenshot_2025-09-13_081959_hh8zgk.png)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+## 🛠 Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Layer    | Technologies |
+|----------|--------------|
+| **Frontend** | React, React Router DOM, Axios, Tailwind CSS |
+| **Backend**  | Node.js, Express.js, SQLite3, CORS |
+| **Dev Tools**| Nodemon for hot-reloading during backend development |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📂 Project Structure
+user-management-dashboard/
+├── backend/
+│   ├── database.js         # Database connection and setup
+│   ├── server.js           # Main Express server file
+│   └── routes/
+│       └── users.js        # API routes for users
+├── frontend/
+│   └── src/
+│       ├── components/     # Reusable React components
+│       ├── pages/          # Page components (UserList, UserForm, etc.)
+│       └── App.js          # Main component with routing
+└── README.md               # Project documentation
 
-# Step 3: Install the necessary dependencies.
-npm i
+User Management Dashboard – A simple web app built with React and Node.js that lets you add, edit, view and delete users
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4790e4b0-3ea4-4bf0-9384-e6142e6c61ed) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
